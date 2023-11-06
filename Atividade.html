@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exemplo de HTML com metadados">
+    <title>Exemplo de HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa comprometida com a qualidade e inovação.</p>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através do formulário abaixo:</p>
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section>
+        <h2>Imagem</h2>
+        <img src="exemplo.jpg" alt="Exemplo de imagem">
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meu Site</p>
+    </footer>
+</body>
+</html>
